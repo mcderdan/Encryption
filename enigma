@@ -8,6 +8,12 @@ count = 0
 while n<len(array):
     if array[n] == ' ':
         del array[n]
+    if array[n] == '!':
+        del array[n]
+    if array[n] == '?':
+        del array[n]
+    if array[n] == '.':
+        del array[n]
     if array[n] == 'i':
         array[n] = 9 + count//5
     if array[n] == 'a':
