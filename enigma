@@ -1,0 +1,65 @@
+string = input('TYPE MESSAGE ')
+string = string.lower()
+print(string)
+array = list(string)
+print(array)
+n = 0
+count = 0
+while n<len(array):
+    if array[n] == ' ':
+        del array[n]
+    if array[n] == 'i':
+        array[n] = 9 + count//5
+    if array[n] == 'a':
+        array[n] = 1 + count//5
+    if array[n] == 'b':
+        array[n] = 2 + count//5
+    if array[n] == 'c':
+        array[n] = 3 + count//5
+    if array[n] == 'd':
+        array[n] = 4 + count//5
+    if array[n] == 'e':
+        array[n] = 5 + count//5
+    if array[n] == 'f':
+        array[n] = 6 + count//5
+    if array[n] == 'g':
+        array[n] = 7 + count//5
+    if array[n] == 'h':
+        array[n] = 8 + count//5
+    if array[n] == 'j':
+        array[n] = 10 + count//5
+    if array[n] == 'k':
+        array[n] = 11 + count//5
+    if array[n] == 'l':
+        array[n] = 12 + count//5
+    if array[n] == 'm':
+        array[n] = 13 + count//5
+    if array[n] == 'n':
+        array[n] = 14 + count//5
+    if array[n] == 'o':
+        array[n] = 15 + count//5
+    if array[n] == 'p':
+        array[n] = 16 + count//5
+    if array[n] == 'q':
+        array[n] = 17 + count//5
+    if array[n] == 'r':
+        array[n] = 18 + count//5
+    if array[n] == 's':
+        array[n] = 19 + count//5
+    if array[n] == 't':
+        array[n] = 20 + count//5
+    if array[n] == 'u':
+        array[n] = 21 + count//5
+    if array[n] == 'v':
+        array[n] = 22 + count//5
+    if array[n] == 'w':
+        array[n] = 23 + count//5
+    if array[n] == 'x':
+        array[n] = 24 + count//5
+    if array[n] == 'y':
+        array[n] = 25 + count//5
+    if array[n] == 'z':
+        array[n] = 26 + count//5
+    n=n+1
+    count = count + 1
+print(array)
