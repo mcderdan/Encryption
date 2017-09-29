@@ -1,4 +1,4 @@
-string = input('TYPE MESSAGE ')
+string = input('TYPE MESSAGE\n')
 string = string.lower()
 print(string)
 array = list(string)
